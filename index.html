@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pranesh</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio project</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="logo">Pranesh  m</div>
+
+    <nav>
+
+      <a href="#about">About</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#skills">Skills</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+  </header>
+
+  <section class="hero">
+
+    <div class="hero-text">
+
+      <h1>Heyy, I'm pranesh m</h1>
+
+      <p class="profession">Web Developer | Developer</p>
+
+      <p class="interests">I love coding, exploring new technologies, and creating new stuffs as like, Websites, Application.</p>
+
+    </div>
+
+    <div class="hero-image">
+
+      <img src="https://i.postimg.cc/NFcmPr2F/IMG-20250624-085415.jpg" alt="Profile Picture">
+
+    </div>
+
+  </section>
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>I'm pranesh m, a Computer Science student. I'm currently learning Html and expanding my skills into Web developing skills. My interests are Game developing and software developing, i'll make my creative thought into real projects by using these interests. My ultimate goal is to become a skilled game developer and create immersive experience that combines innovation and creativity.</p>
+
+  </section>
+
+  
+
+  <section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+      <div class="project">
+
+       
+
+         <div class="project-box">
+
+            <h3>My Project</h3>
+
+         </div>
+
+        </a>
+
+      </div>
+
+   
+
+     
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skill-bar" style="--percent: 90%">HTML</div>
+
+    <div class="skill-bar" style="--percent: 80%">CSS</div>
+
+    <div class="skill-bar" style="--percent: 75%">JavaScript</div>
+
+    <div class="skill-bar" style="--percent: 75%">C#</div>
+
+  </section>
+
+  <div class="flip-card">
+
+  <div class="flip-card-inner">
+
+    <div class="flip-card-front">
+
+      <p><strong>Email</strong></p>
+
+    </div>
+
+    <div class="flip-card-back">
+
+      <p><strong>praneshm304@gmail.com</strong></p>
+
+    </div>
+
+ </div>
+
+ </div>
+
+<style>
+
+.flip-card {
+
+  width: 200px;
+
+  height: 120px;
+
+  perspective: 1000px;
+
+  margin: 20px;
+
+  align-self: center;
+
+}
+
+.flip-card-inner {
+
+  width: 100%;
+
+  height: 100%;
+
+  transition: transform 0.6s;
+
+  transform-style: preserve-3d;
+
+  cursor: pointer;
+
+  position: relative;
+
+}
+
+.flip-card-front, .flip-card-back {
+
+    background-color: rgb(12, 112, 179);
+
+    color: black;
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+  backface-visibility: hidden;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border: 1px solid #ccc;
+
+  border-radius: 10px;
+
+}
+
+.flip-card-back {
+
+  transform: rotateY(180deg);
+
+}
+
+.flip-card-inner.active {
+
+  transform: rotateY(180deg);
+
+}
+
+</style>
+
+<script>
+
+  const card = document.querySelector(".flip-card-inner");
+
+  card.addEventListener("click", () => {
+
+    card.classList.toggle("active");
+
+  });
+
+</script>
+
+  
+
+  <section id="contact">
+
+    <h2>Contact</h2>
+
+    <form>
+
+      <input type="text" placeholder="Your Name" required>
+
+      <input type="email" placeholder="Your Email" required>
+
+      <textarea placeholder="Message" required></textarea>
+
+      <button type="submit">Send</button>
+
+    </form>
+
+  </section>
+
+  <footer>© 2025 All right reserved</footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
